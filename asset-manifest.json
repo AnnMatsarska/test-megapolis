@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/test-megapolis/static/css/main.7acaea2f.css",
-    "main.js": "/test-megapolis/static/js/main.c0527af8.js",
+    "main.css": "/test-megapolis/static/css/main.f456cbfb.css",
+    "main.js": "/test-megapolis/static/js/main.823af7b7.js",
     "index.html": "/test-megapolis/index.html",
-    "main.7acaea2f.css.map": "/test-megapolis/static/css/main.7acaea2f.css.map",
-    "main.c0527af8.js.map": "/test-megapolis/static/js/main.c0527af8.js.map"
+    "static/media/burgerMenu.svg": "/test-megapolis/static/media/burgerMenu.de4550f5b278dca424b088d76db2ae19.svg",
+    "main.f456cbfb.css.map": "/test-megapolis/static/css/main.f456cbfb.css.map",
+    "main.823af7b7.js.map": "/test-megapolis/static/js/main.823af7b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.c0527af8.js"
+    "static/css/main.f456cbfb.css",
+    "static/js/main.823af7b7.js"
   ]
 }
