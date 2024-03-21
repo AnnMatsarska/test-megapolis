@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/test-megapolis/static/css/main.7acaea2f.css",
-    "main.js": "/test-megapolis/static/js/main.07d3183d.js",
+    "main.js": "/test-megapolis/static/js/main.c0527af8.js",
     "index.html": "/test-megapolis/index.html",
     "main.7acaea2f.css.map": "/test-megapolis/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/test-megapolis/static/js/main.07d3183d.js.map"
+    "main.c0527af8.js.map": "/test-megapolis/static/js/main.c0527af8.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/js/main.c0527af8.js"
   ]
 }
