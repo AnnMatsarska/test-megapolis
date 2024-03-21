@@ -1,0 +1,38 @@
+.heroSection {
+    padding-top: 232px;
+    padding-bottom: 378px;
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image:
+        url(../../images/Background.jpg);
+}
+
+.heroTitle {
+    margin-bottom: 56px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.229;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.heroSpan {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    text-transform: none;
+}
+
+.heroButton {
+    padding: 14px 31px;
+    border: none;
+    border-radius: 11px;
+    background: rgb(47, 180, 108);
+
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.208;
+    color: rgb(0, 0, 0);
+}
