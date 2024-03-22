@@ -1,5 +1,6 @@
 import React from 'react';
 import css from './BookingForm.module.css';
+import { ReactComponent as DownArrow } from '../../images/icons/downArrow.svg';
 
 export const BookingForm = () => {
   return (
@@ -27,7 +28,7 @@ export const BookingForm = () => {
           </div>
           <div className={css.inputWrapper}>
             <input
-              type="number"
+              type="tel"
               name="number"
               placeholder="+38(0__)___-__-__"
               className={css.input}
@@ -40,6 +41,7 @@ export const BookingForm = () => {
               placeholder="Виберіть хостел"
               className={css.input}
             />
+            <DownArrow style={{ width: '24px', height: '24px' }} />
           </div>
           <div className={css.inputTextarea}>
             <input

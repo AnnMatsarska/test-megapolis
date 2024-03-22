@@ -43,6 +43,15 @@
     line-height: 1.21;
 }
 
+.greenText {
+    color: rgb(47, 180, 108)
+}
+
+.plusMinusIcon {
+    cursor: pointer;
+
+}
+
 .box {
     padding-top: 7px;
     padding-bottom: 7px;
@@ -112,7 +121,15 @@
     line-height: 1.208;
 }
 
+.list li:nth-last-child(-n+2) {
+    display: none;
+}
+
 @media (min-width: 1440px) {
+    .list li:nth-last-child(-n+2) {
+        display: block;
+    }
+
     .sectionTitle {
         font-size: 64px;
         font-weight: 700;

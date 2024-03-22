@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import css from './Description.module.css';
 import specifications from '../../data/spesifications.json';
 import hostel from '../../images/hostel.jpg';
 import { ReactComponent as Plus } from '../../images/icons/plus.svg';
+import { ReactComponent as Minus } from '../../images/icons/minus.svg';
 
 export const Description = () => {
+  const [showInfoAdress, setShowInfoAdress] = useState(false);
+  const [showInfoPrice, setShowInfoPrice] = useState(false);
+  const [showInfoDesc, setShowInfoDesc] = useState(false);
+  const [showInfoNearby, setShowInfoNearby] = useState(false);
+  const [showInfoTransport, setShowInfoTransport] = useState(false);
+
   return (
     <div className="container">
       <section className={css.descSection}>
@@ -26,80 +33,174 @@ export const Description = () => {
                 </div>
                 <div className={css.infoWrpper}>
                   <div className={css.box}>
-                    <p className={css.itemText}>Адреса</p>
-                    <Plus />
+                    <p
+                      className={`${css.itemText} ${
+                        showInfoAdress ? css.greenText : ''
+                      }`}
+                    >
+                      Адреса
+                    </p>
+                    {showInfoAdress ? (
+                      <Minus
+                        className={css.plusMinusIcon}
+                        onClick={() => setShowInfoAdress(false)}
+                      />
+                    ) : (
+                      <Plus
+                        className={css.plusMinusIcon}
+                        onClick={() => setShowInfoAdress(true)}
+                      />
+                    )}
                   </div>
-                  <p className={css.addressBox}>
-                    {spec.address.split('\n').map((line, index) => (
-                      <React.Fragment key={index}>
-                        {line}
-                        <br />
-                      </React.Fragment>
-                    ))}
-                  </p>
+                  {showInfoAdress && (
+                    <p className={css.addressBox}>
+                      {spec.address.split('\n').map((line, index) => (
+                        <React.Fragment key={index}>
+                          {line}
+                          <br />
+                        </React.Fragment>
+                      ))}
+                    </p>
+                  )}
                 </div>
                 <div className={css.infoWrpper}>
                   <div className={css.box}>
-                    <p className={css.itemText}>Ціна</p>
-                    <Plus />
-                  </div>
-                  <ul className={css.priceList}>
-                    {spec.price.map(pr => {
-                      return (
-                        <>
-                          <li>доба: {pr.day}грн.</li>
-                          <li>
-                            тиждень:{' '}
-                            <span className={css.crossPrice}>{pr.week}грн</span>
-                            <span className={css.greenPrice}>від 620 грн.</span>
-                          </li>
-                          <li>
-                            4 тижня:{' '}
-                            <span className={css.crossPrice}>
-                              {pr.month}грн
-                            </span>
-                            <span className={css.greenPrice}>
-                              від 1900 грн.
-                            </span>
-                          </li>
-                        </>
-                      );
-                    })}
-                  </ul>
-                  <div className={css.infoWrpper}>
-                    <div className={css.box}>
-                      <p className={css.itemText}>Опис</p>
-                      <Plus />
-                    </div>
-                    <p className={css.descrptBox}>{spec.description}</p>
-                  </div>
-                  <div className={css.infoWrpper}>
-                    <div className={css.box}>
-                      <p className={css.itemText}>Що поруч?</p>
-                      <Plus />
-                    </div>
-                    <p className={css.descrptBox}>
-                      {spec.nearby.split('\n').map((line, index) => (
-                        <React.Fragment key={index}>
-                          {line}
-                          <br />
-                        </React.Fragment>
-                      ))}
+                    <p
+                      className={`${css.itemText} ${
+                        showInfoPrice ? css.greenText : ''
+                      }`}
+                    >
+                      Ціна
                     </p>
+                    {showInfoPrice ? (
+                      <Minus
+                        className={css.plusMinusIcon}
+                        onClick={() => setShowInfoPrice(false)}
+                      />
+                    ) : (
+                      <Plus
+                        className={css.plusMinusIcon}
+                        onClick={() => setShowInfoPrice(true)}
+                      />
+                    )}
+                  </div>
+                  {showInfoPrice && (
+                    <ul className={css.priceList}>
+                      {spec.price.map(pr => {
+                        return (
+                          <>
+                            <li>доба: {pr.day}грн.</li>
+                            <li>
+                              тиждень:{' '}
+                              <span className={css.crossPrice}>
+                                {pr.week}грн
+                              </span>
+                              <span className={css.greenPrice}>
+                                від 620 грн.
+                              </span>
+                            </li>
+                            <li>
+                              4 тижня:{' '}
+                              <span className={css.crossPrice}>
+                                {pr.month}грн
+                              </span>
+                              <span className={css.greenPrice}>
+                                від 1900 грн.
+                              </span>
+                            </li>
+                          </>
+                        );
+                      })}
+                    </ul>
+                  )}
+                  <div className={css.infoWrpper}>
+                    <div className={css.box}>
+                      <p
+                        className={`${css.itemText} ${
+                          showInfoDesc ? css.greenText : ''
+                        }`}
+                      >
+                        Опис
+                      </p>
+                      {showInfoDesc ? (
+                        <Minus
+                          className={css.plusMinusIcon}
+                          onClick={() => setShowInfoDesc(false)}
+                        />
+                      ) : (
+                        <Plus
+                          className={css.plusMinusIcon}
+                          onClick={() => setShowInfoDesc(true)}
+                        />
+                      )}
+                    </div>
+                    {showInfoDesc && (
+                      <p className={css.descrptBox}>{spec.description}</p>
+                    )}
                   </div>
                   <div className={css.infoWrpper}>
                     <div className={css.box}>
-                      <p className={css.itemText}>Транспорт</p>
-                      <Plus />
+                      <p
+                        className={`${css.itemText} ${
+                          showInfoNearby ? css.greenText : ''
+                        }`}
+                      >
+                        Що поруч?
+                      </p>
+                      {showInfoNearby ? (
+                        <Minus
+                          className={css.plusMinusIcon}
+                          onClick={() => setShowInfoNearby(false)}
+                        />
+                      ) : (
+                        <Plus
+                          className={css.plusMinusIcon}
+                          onClick={() => setShowInfoNearby(true)}
+                        />
+                      )}
                     </div>
-                    <p className={css.descrptBox}>
-                      {spec.transport.split('\n').map((line, index) => (
-                        <React.Fragment key={index}>
-                          {line}
-                          <br />
-                        </React.Fragment>
-                      ))}
-                    </p>
+                    {showInfoNearby && (
+                      <p className={css.descrptBox}>
+                        {spec.nearby.split('\n').map((line, index) => (
+                          <React.Fragment key={index}>
+                            {line}
+                            <br />
+                          </React.Fragment>
+                        ))}
+                      </p>
+                    )}
+                  </div>
+                  <div className={css.infoWrpper}>
+                    <div className={css.box}>
+                      <p
+                        className={`${css.itemText} ${
+                          showInfoTransport ? css.greenText : ''
+                        }`}
+                      >
+                        Транспорт
+                      </p>
+                      {showInfoTransport ? (
+                        <Minus
+                          className={css.plusMinusIcon}
+                          onClick={() => setShowInfoTransport(false)}
+                        />
+                      ) : (
+                        <Plus
+                          className={css.plusMinusIcon}
+                          onClick={() => setShowInfoTransport(true)}
+                        />
+                      )}
+                    </div>
+                    {showInfoTransport && (
+                      <p className={css.descrptBox}>
+                        {spec.transport.split('\n').map((line, index) => (
+                          <React.Fragment key={index}>
+                            {line}
+                            <br />
+                          </React.Fragment>
+                        ))}
+                      </p>
+                    )}
                   </div>
                 </div>
               </div>
