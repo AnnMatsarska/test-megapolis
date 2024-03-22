@@ -1,0 +1,49 @@
+.footerSection {
+    padding-top: 91px;
+    padding-bottom: 21px;
+    max-width: 1440px;
+    background: rgb(34, 34, 34);
+}
+
+.menuList {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 88px;
+}
+
+.menuList li a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.375;
+    color: rgb(255, 255, 255);
+}
+
+.telWrapper {
+    display: flex;
+    gap: 21px;
+    align-items: center;
+}
+
+.menuTelList {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.menuTelList a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.375;
+    color: rgb(255, 255, 255);
+}
+
+.recallLink {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.357;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
