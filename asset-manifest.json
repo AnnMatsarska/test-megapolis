@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/test-megapolis/static/css/main.b86dec2c.css",
-    "main.js": "/test-megapolis/static/js/main.69f5ae28.js",
+    "main.css": "/test-megapolis/static/css/main.53262ec4.css",
+    "main.js": "/test-megapolis/static/js/main.e859a057.js",
     "static/media/Background.jpg": "/test-megapolis/static/media/Background.a98e3e1c90d348d82fe4.jpg",
     "static/media/hostel.jpg": "/test-megapolis/static/media/hostel.15dc988bceb5b084c917.jpg",
     "static/media/fourUsers.svg": "/test-megapolis/static/media/fourUsers.a5e5d2ab7f6f476953411535c96bd82b.svg",
@@ -17,11 +17,11 @@
     "static/media/plus.svg": "/test-megapolis/static/media/plus.136c50c76784d3b67d4e74eb1bcc5230.svg",
     "static/media/burgerMenu.svg": "/test-megapolis/static/media/burgerMenu.de4550f5b278dca424b088d76db2ae19.svg",
     "static/media/close.svg": "/test-megapolis/static/media/close.a2c34c6916cfabe2420cb21d85374c20.svg",
-    "main.b86dec2c.css.map": "/test-megapolis/static/css/main.b86dec2c.css.map",
-    "main.69f5ae28.js.map": "/test-megapolis/static/js/main.69f5ae28.js.map"
+    "main.53262ec4.css.map": "/test-megapolis/static/css/main.53262ec4.css.map",
+    "main.e859a057.js.map": "/test-megapolis/static/js/main.e859a057.js.map"
   },
   "entrypoints": [
-    "static/css/main.b86dec2c.css",
-    "static/js/main.69f5ae28.js"
+    "static/css/main.53262ec4.css",
+    "static/js/main.e859a057.js"
   ]
 }
