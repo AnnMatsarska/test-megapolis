@@ -21,6 +21,14 @@ code {
   margin: 0 auto;
   max-width: 1440px;
   padding: 0 22px;
+
+}
+
+@media (min-width: 1440px) {
+  .container {
+    padding: 0 135px;
+  }
+
 }
 
 

@@ -80,3 +80,105 @@
     font-weight: 400;
     line-height: 2.214;
 }
+
+.wrapper {
+    display: flex;
+}
+
+@media (min-width: 1440px) {
+
+    .optionsSection {
+        padding-top: 109px;
+    }
+
+    .optionsTitle {
+        margin-bottom: 58px;
+    }
+
+
+    .box {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.2;
+        justify-content: flex-start;
+        gap: 380px;
+    }
+
+    .priceList {
+        margin-top: 24px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    .priceList li {
+        display: flex;
+    }
+
+    .priceList li:not(:last-child)::after {
+        content: '';
+        vertical-align: middle;
+        display: inline-block;
+        width: 1px;
+        height: 25px;
+        margin: 0 15px 0 35px;
+        background-color: rgba(18, 20, 23, 0.1);
+    }
+
+    .optionList {
+        padding-left: 135px;
+        padding-right: 135px;
+    }
+
+    .iconUser {
+        width: 41px;
+        height: 41px;
+    }
+
+    .iconTwoUsers {
+        width: 61px;
+        height: 41px;
+    }
+
+    .iconThreeUsers {
+        width: 81px;
+        height: 41px;
+    }
+
+    .iconFourUsers {
+        width: 101px;
+        height: 41px;
+    }
+
+    .otionItem {
+        margin-bottom: 45px;
+
+    }
+
+    .orderBtn {
+        padding: 14px 7px;
+        border-radius: 11px;
+        background: rgb(47, 180, 108);
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.208;
+        border: none;
+    }
+
+    .orderPriceBox {
+        margin-right: 74px;
+        display: flex;
+        gap: 90px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.2;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin-right: 87px;
+    }
+
+}

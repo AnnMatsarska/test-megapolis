@@ -122,3 +122,12 @@
     }
 
 }
+
+@media (min-width: 800px) {
+
+    .menuList {
+        margin-right: 208px;
+
+    }
+
+}

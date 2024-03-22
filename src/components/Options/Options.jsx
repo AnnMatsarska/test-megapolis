@@ -24,47 +24,64 @@ export const Options = () => {
       </div>
       <ul className={css.optionList}>
         <li className={css.otionItem}>
-          <User style={{ marginRight: '28px' }} />
-          <button type="button" className={css.orderBtn}>
-            Забронювати
-          </button>
-          <div className={css.orderPriceBox}>
-            <p>430</p>
-            <p>1500</p>
-            <p>4500</p>
+          <User className={css.iconUser} style={{ marginRight: '38px' }} />
+          <div className={css.wrapper}>
+            <button type="button" className={css.orderBtn}>
+              Забронювати
+            </button>
+            <div className={css.orderPriceBox}>
+              <p>430</p>
+              <p>1500</p>
+              <p>4500</p>
+            </div>
           </div>
         </li>
         <li className={css.otionItem}>
-          <TwoUsers style={{ marginRight: '18.8px' }} />
-          <button type="button" className={css.orderBtn}>
-            Забронювати
-          </button>
-          <div className={css.orderPriceBox}>
-            <p>390</p>
-            <p>1350</p>
-            <p>4000</p>
+          <TwoUsers
+            className={css.iconTwoUsers}
+            style={{ marginRight: '28.8px' }}
+          />
+          <div className={css.wrapper}>
+            <button type="button" className={css.orderBtn}>
+              Забронювати
+            </button>
+            <div className={css.orderPriceBox}>
+              <p>390</p>
+              <p>1350</p>
+              <p>4000</p>
+            </div>
           </div>
         </li>
         <li className={css.otionItem}>
-          <ThreeUsers style={{ marginRight: '8.9px' }} />
-          <button type="button" className={css.orderBtn}>
-            Забронювати
-          </button>
-          <div className={css.orderPriceBox}>
-            <p>350</p>
-            <p>1200</p>
-            <p>3500</p>
+          <ThreeUsers
+            className={css.iconThreeUsers}
+            style={{ marginRight: '18.9px' }}
+          />
+          <div className={css.wrapper}>
+            <button type="button" className={css.orderBtn}>
+              Забронювати
+            </button>
+            <div className={css.orderPriceBox}>
+              <p>350</p>
+              <p>1200</p>
+              <p>3500</p>
+            </div>
           </div>
         </li>
         <li className={css.otionItem}>
-          <FourUsers style={{ marginRight: '0.7px' }} />
-          <button type="button" className={css.orderBtn}>
-            Забронювати
-          </button>
-          <div className={css.orderPriceBox}>
-            <p>290</p>
-            <p>1000</p>
-            <p>3000</p>
+          <FourUsers
+            className={css.iconFourUsers}
+            style={{ marginRight: '10.7px' }}
+          />
+          <div className={css.wrapper}>
+            <button type="button" className={css.orderBtn}>
+              Забронювати
+            </button>
+            <div className={css.orderPriceBox}>
+              <p>290</p>
+              <p>1000</p>
+              <p>3000</p>
+            </div>
           </div>
         </li>
       </ul>
