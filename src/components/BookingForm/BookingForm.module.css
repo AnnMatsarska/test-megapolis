@@ -1,0 +1,68 @@
+.formTitle {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.222;
+    text-align: left;
+    margin-bottom: 56px;
+}
+
+.formText {
+    margin-bottom: 114px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.222;
+}
+
+.inputWrapper {
+    padding: 32px 30px;
+    margin-bottom: 30px;
+    border-radius: 19px;
+    background: rgb(244, 244, 244);
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.222;
+}
+
+.inputTextarea {
+    height: 157px;
+    padding: 32px 30px;
+    margin-bottom: 30px;
+    border-radius: 19px;
+    background: rgb(244, 244, 244);
+}
+
+.inputDataWrapper {
+    padding: 18px 21px;
+    border-radius: 19px;
+    background: rgb(244, 244, 244);
+}
+
+.inputData {
+    width: 107px;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.214;
+}
+
+.orderBtn {
+    display: block;
+    margin: 0 auto;
+    padding: 14px 31px;
+    border-radius: 11px;
+    border: none;
+    background: rgb(47, 180, 108);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.208;
+}
+
+.label {
+    margin-bottom: 16px;
+}
