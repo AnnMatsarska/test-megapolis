@@ -130,9 +130,9 @@ export const ListItem = ({ spec }) => {
               Що поруч?
             </p>
             {isOpenNearby ? (
-              <Minus onClick={toggleNearby} />
+              <Minus onClick={toggleNearby} className={css.plusMinusIcon} />
             ) : (
-              <Plus onClick={toggleNearby} />
+              <Plus onClick={toggleNearby} className={css.plusMinusIcon} />
             )}
           </div>
           {isOpenNearby && (
