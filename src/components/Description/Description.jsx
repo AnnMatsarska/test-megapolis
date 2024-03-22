@@ -35,7 +35,7 @@ export const Description = () => {
                   <div className={css.box}>
                     <p
                       className={`${css.itemText} ${
-                        showInfoAdress ? css.greenText : ''
+                        showInfoAdress ? css.greenPrice : ''
                       }`}
                     >
                       Адреса
@@ -67,7 +67,7 @@ export const Description = () => {
                   <div className={css.box}>
                     <p
                       className={`${css.itemText} ${
-                        showInfoPrice ? css.greenText : ''
+                        showInfoPrice ? css.greenPrice : ''
                       }`}
                     >
                       Ціна
@@ -117,7 +117,7 @@ export const Description = () => {
                     <div className={css.box}>
                       <p
                         className={`${css.itemText} ${
-                          showInfoDesc ? css.greenText : ''
+                          showInfoDesc ? css.greenPrice : ''
                         }`}
                       >
                         Опис
@@ -142,7 +142,7 @@ export const Description = () => {
                     <div className={css.box}>
                       <p
                         className={`${css.itemText} ${
-                          showInfoNearby ? css.greenText : ''
+                          showInfoNearby ? css.greenPrice : ''
                         }`}
                       >
                         Що поруч?
@@ -174,7 +174,7 @@ export const Description = () => {
                     <div className={css.box}>
                       <p
                         className={`${css.itemText} ${
-                          showInfoTransport ? css.greenText : ''
+                          showInfoTransport ? css.greenPrice : ''
                         }`}
                       >
                         Транспорт

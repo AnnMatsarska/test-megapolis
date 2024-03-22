@@ -11,19 +11,17 @@ export const Reviews = () => {
         <ul className={css.list}>
           {reviews.map(review => {
             return (
-              <>
-                <li key={review.id} className={css.reviewItem}>
-                  <div className={css.avatar}></div>
-                  <div className={css.infoUser}>
-                    <p>{review.name}</p>
-                    <div style={{ display: 'flex' }}>
-                      <Location />
-                      <p>{review.location}</p>
-                    </div>
+              <li key={review.id} className={css.reviewItem}>
+                <div className={css.avatar}></div>
+                <div className={css.infoUser}>
+                  <p>{review.name}</p>
+                  <div style={{ display: 'flex' }}>
+                    <Location />
+                    <p>{review.location}</p>
                   </div>
-                  <p className={css.reviewText}>{review.review}</p>
-                </li>
-              </>
+                </div>
+                <p className={css.reviewText}>{review.review}</p>
+              </li>
             );
           })}
         </ul>
