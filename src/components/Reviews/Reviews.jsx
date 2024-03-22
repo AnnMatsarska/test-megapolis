@@ -8,7 +8,7 @@ export const Reviews = () => {
     <div className="container">
       <section className={css.reviewsSection}>
         <h2 className={css.reviewTitle}>Відгуки</h2>
-        <ul>
+        <ul className={css.list}>
           {reviews.map(review => {
             return (
               <>

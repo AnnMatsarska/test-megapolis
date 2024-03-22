@@ -130,4 +130,19 @@
     .item {
         width: 526px;
     }
+
+    .orderBtn {
+        margin: 0;
+    }
+
+    .endWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 24px;
+    }
+
+    .descSection {
+        padding-bottom: 121px;
+    }
 }

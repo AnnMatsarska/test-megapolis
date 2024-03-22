@@ -41,3 +41,27 @@
     font-weight: 400;
     line-height: 1.222;
 }
+
+@media (min-width: 1440px) {
+    .reviewsSection {
+        padding-bottom: 68px;
+    }
+
+    .reviewTitle {
+        margin-bottom: 36px;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 1.218;
+        text-align: left;
+    }
+
+    .list {
+        display: flex;
+        gap: 37px;
+
+    }
+
+    .reviewItem {
+        width: 361px;
+    }
+}
