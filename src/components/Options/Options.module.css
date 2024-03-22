@@ -1,0 +1,82 @@
+.optionsSection {
+    padding-top: 35px;
+
+}
+
+.optionsTitle {
+    margin-bottom: 24px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.222;
+    text-align: center;
+}
+
+.typeWrapper {
+    background: rgb(245, 245, 245);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 24px;
+    padding-left: 23px;
+    padding-right: 25px;
+}
+
+.box {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.214;
+}
+
+.priceWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.priceList {
+    display: flex;
+    gap: 18px;
+    margin-top: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.23;
+}
+
+.optionList {
+    margin-top: 22px;
+    padding-left: 23px;
+    padding-right: 22px;
+}
+
+.otionItem {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.orderBtn {
+    padding: 6px 10px;
+    border-radius: 4px;
+    background: rgb(47, 180, 108);
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.18;
+    border: none;
+}
+
+.orderPriceBox {
+    margin-right: 30px;
+    display: flex;
+    gap: 13px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2.214;
+}

@@ -1,0 +1,112 @@
+.descSection {
+    padding-top: 99px;
+    padding-bottom: 82px;
+}
+
+.sectionTitle {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.222;
+    text-align: center;
+}
+
+.itemWrapper {
+    padding: 25px;
+    border: 4px solid rgb(231, 231, 231);
+    border-radius: 20px;
+}
+
+.new {
+    padding: 8px 12px;
+    color: rgb(47, 180, 108);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.222;
+    border-radius: 27px;
+    background: rgb(239, 239, 239);
+}
+
+.sale {
+    padding: 8px 12px;
+    color: rgb(255, 0, 0);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.222;
+    border-radius: 27px;
+    background: rgb(239, 239, 239);
+}
+
+.itemText {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.21;
+}
+
+.box {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(196, 196, 196);
+    ;
+}
+
+.addressBox {
+    padding: 11px 21px;
+    height: 84px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.214;
+    border-bottom: 1px solid rgb(196, 196, 196);
+    ;
+    background: rgb(247, 247, 247);
+}
+
+.priceList {
+    padding: 11px 9px 13px 21px;
+    background: rgb(247, 247, 247);
+}
+
+.crossPrice {
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.222;
+    color: rgb(171, 171, 171);
+    text-decoration: line-through;
+}
+
+.greenPrice {
+    color: rgb(47, 180, 108);
+}
+
+.descrptBox {
+    padding: 11px 9px 13px 21px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.214;
+    background: rgb(247, 247, 247);
+}
+
+.mapText {
+    margin-top: 24px;
+    margin-bottom: 22px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.208;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.orderBtn {
+    display: block;
+    margin: 0 auto 29px auto;
+    padding: 14px 31px 14px 31px;
+    border-radius: 11px;
+    border: none;
+    background: rgb(47, 180, 108);
+
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.208;
+}
