@@ -47,3 +47,23 @@
     text-decoration: underline;
     color: rgb(255, 255, 255);
 }
+
+@media (min-width: 1440px) {
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .menuList {
+        margin-bottom: 0;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .footerSection {
+        padding-top: 26px;
+        padding-bottom: 26px;
+
+    }
+}
