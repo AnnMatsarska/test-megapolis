@@ -85,12 +85,12 @@ export const Description = () => {
                     )}
                   </div>
                   {showInfoPrice && (
-                    <ul className={css.priceList}>
+                    <div className={css.priceList}>
                       {spec.price.map(pr => {
                         return (
                           <>
-                            <li>доба: {pr.day}грн.</li>
-                            <li>
+                            <p>доба: {pr.day}грн.</p>
+                            <p>
                               тиждень:{' '}
                               <span className={css.crossPrice}>
                                 {pr.week}грн
@@ -98,8 +98,8 @@ export const Description = () => {
                               <span className={css.greenPrice}>
                                 від 620 грн.
                               </span>
-                            </li>
-                            <li>
+                            </p>
+                            <p>
                               4 тижня:{' '}
                               <span className={css.crossPrice}>
                                 {pr.month}грн
@@ -107,11 +107,11 @@ export const Description = () => {
                               <span className={css.greenPrice}>
                                 від 1900 грн.
                               </span>
-                            </li>
+                            </p>
                           </>
                         );
                       })}
-                    </ul>
+                    </div>
                   )}
                   <div className={css.infoWrpper}>
                     <div className={css.box}>
