@@ -70,3 +70,43 @@
 .label {
     margin-bottom: 16px;
 }
+
+.endWrapper {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 42px;
+}
+
+@media (min-width: 1440px) {
+    .formSection {
+        display: flex;
+        gap: 114px;
+        justify-content: center;
+    }
+
+    .leftWrapper {
+        width: 515px;
+    }
+
+    .formTitle {
+        margin-bottom: 26px;
+        width: 487px;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 1.229;
+    }
+
+    .inputWrapper {
+        width: 430px;
+    }
+
+    .inputData {
+        width: 160px;
+    }
+
+    .endWrapper {
+        gap: 0;
+        justify-content: space-between;
+    }
+
+}

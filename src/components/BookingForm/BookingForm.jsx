@@ -5,13 +5,16 @@ export const BookingForm = () => {
   return (
     <div className="container">
       <section className={css.formSection}>
-        <h2 className={css.formTitle}>Забронювати хостел</h2>
-        <p className={css.formText}>
-          Приїжджаєте до Києва і шукаєте де зупинитися? Сумніваєтеся бронювати
-          чи готель, знімати житло? Шукаєте хороший і недорогий варіант в Києві?
-          Хочете подорожувати всій родині або з друзями, але продовжувати
-          відчувати себе як вдома? Хостел Мегаполіс радий вітати Вас!
-        </p>
+        <div className={css.leftWrapper}>
+          <h2 className={css.formTitle}>Забронювати хостел</h2>
+          <p className={css.formText}>
+            Приїжджаєте до Києва і шукаєте де зупинитися? Сумніваєтеся бронювати
+            чи готель, знімати житло? Шукаєте хороший і недорогий варіант в
+            Києві? Хочете подорожувати всій родині або з друзями, але
+            продовжувати відчувати себе як вдома? Хостел Мегаполіс радий вітати
+            Вас!
+          </p>
+        </div>
 
         <form>
           <div className={css.inputWrapper}>
@@ -46,7 +49,7 @@ export const BookingForm = () => {
               className={css.input}
             />
           </div>
-          <div style={{ display: 'flex', gap: '24px', marginBottom: '42px' }}>
+          <div className={css.endWrapper}>
             <div
               style={{
                 display: 'flex',
