@@ -88,7 +88,7 @@ export const Description = () => {
                     <div className={css.priceList}>
                       {spec.price.map(pr => {
                         return (
-                          <>
+                          <div key={spec.id}>
                             <p>доба: {pr.day}грн.</p>
                             <p>
                               тиждень:{' '}
@@ -108,7 +108,7 @@ export const Description = () => {
                                 від 1900 грн.
                               </span>
                             </p>
-                          </>
+                          </div>
                         );
                       })}
                     </div>
