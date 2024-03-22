@@ -43,7 +43,7 @@ export const Header = () => {
                   gap: '5px',
                 }}
               >
-                <Phone />
+                <Phone className={css.phoneIcon} />
                 <ul className={css.menuTelList}>
                   <li>
                     <a href="tel:+380638903030">+38 (063) 890 30 30</a>

@@ -127,7 +127,11 @@
 
     .menuList {
         margin-right: 208px;
+    }
 
+    .phoneIcon {
+        width: 36px;
+        height: 36px;
     }
 
 }
