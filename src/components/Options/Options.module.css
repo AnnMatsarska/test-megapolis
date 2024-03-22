@@ -58,7 +58,7 @@
     margin-bottom: 12px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+
 
 }
 
@@ -83,6 +83,8 @@
 
 .wrapper {
     display: flex;
+    align-items: center;
+    gap: 22px;
 }
 
 @media (min-width: 1440px) {
@@ -152,7 +154,7 @@
 
     .otionItem {
         margin-bottom: 45px;
-
+        justify-content: space-between;
     }
 
     .orderBtn {
@@ -176,6 +178,7 @@
 
     .wrapper {
         display: flex;
+        gap: 0;
         flex-direction: row-reverse;
         align-items: center;
         margin-right: 87px;

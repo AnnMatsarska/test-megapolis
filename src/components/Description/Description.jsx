@@ -9,9 +9,9 @@ export const Description = () => {
     <div className="container">
       <section className={css.descSection}>
         <h2 className={css.sectionTitle}>Адреси</h2>
-        <ul>
+        <ul className={css.list}>
           {specifications.map(spec => (
-            <li key={spec.id}>
+            <li key={spec.id} className={css.item}>
               <div className={css.itemWrapper}>
                 <img
                   src={hostel}
@@ -103,10 +103,12 @@ export const Description = () => {
                   </div>
                 </div>
               </div>
-              <p className={css.mapText}>Показати на мапі</p>
-              <button type="button" className={css.orderBtn}>
-                Забронювати
-              </button>
+              <div className={css.endWrapper}>
+                <p className={css.mapText}>Показати на мапі</p>
+                <button type="button" className={css.orderBtn}>
+                  Забронювати
+                </button>
+              </div>
             </li>
           ))}
         </ul>

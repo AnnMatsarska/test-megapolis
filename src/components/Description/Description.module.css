@@ -8,6 +8,7 @@
     font-weight: 700;
     line-height: 1.222;
     text-align: center;
+    margin-bottom: 24px;
 }
 
 .itemWrapper {
@@ -109,4 +110,24 @@
     font-size: 24px;
     font-weight: 600;
     line-height: 1.208;
+}
+
+@media (min-width: 1440px) {
+    .sectionTitle {
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 1.218;
+        text-align: left;
+        margin-bottom: 36px;
+    }
+
+    .list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 78px;
+    }
+
+    .item {
+        width: 526px;
+    }
 }
