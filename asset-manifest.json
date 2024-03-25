@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/test-megapolis/static/css/main.e384a3fb.css",
-    "main.js": "/test-megapolis/static/js/main.077c99ee.js",
+    "main.js": "/test-megapolis/static/js/main.b2176d54.js",
     "static/media/Background.jpg": "/test-megapolis/static/media/Background.a98e3e1c90d348d82fe4.jpg",
     "static/media/hostel.jpg": "/test-megapolis/static/media/hostel.15dc988bceb5b084c917.jpg",
     "static/media/fourUsers.svg": "/test-megapolis/static/media/fourUsers.a5e5d2ab7f6f476953411535c96bd82b.svg",
@@ -21,10 +21,10 @@
     "static/media/selected.svg": "/test-megapolis/static/media/selected.d0e1d408c17138aa24b6e97816ba2b55.svg",
     "static/media/notSelected.svg": "/test-megapolis/static/media/notSelected.c9737d59b487cf4e3cd8bbaa0806ff89.svg",
     "main.e384a3fb.css.map": "/test-megapolis/static/css/main.e384a3fb.css.map",
-    "main.077c99ee.js.map": "/test-megapolis/static/js/main.077c99ee.js.map"
+    "main.b2176d54.js.map": "/test-megapolis/static/js/main.b2176d54.js.map"
   },
   "entrypoints": [
     "static/css/main.e384a3fb.css",
-    "static/js/main.077c99ee.js"
+    "static/js/main.b2176d54.js"
   ]
 }
